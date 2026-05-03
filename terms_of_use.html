@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use — Offbookly</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 0;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #111;
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      color: #222;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 6px;
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    p {
+      margin-bottom: 14px;
+    }
+    strong {
+      font-weight: 600;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul, ol {
+      margin-bottom: 14px;
+      padding-left: 28px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 32px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 0.92rem;
+    }
+    th {
+      background: #f0f4f8;
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+    }
+    td {
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      vertical-align: top;
+    }
+    tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    .last-updated {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+    .footer-note {
+      color: #888;
+      font-style: italic;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 16px 60px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      table {
+        font-size: 0.82rem;
+      }
+      th, td {
+        padding: 7px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>OFFBOOKLY — TERMS OF USE</h1>
+<p><strong>Last Updated: April 16, 2026</strong></p>
+<hr />
+
+<h2>1. Agreement to Terms</h2>
+<p>By creating an account, uploading a screenplay, or otherwise accessing or using the Offbookly mobile application and related services (collectively, the "Services"), you accept and agree to be bound by these Terms of Use (the "Terms") and our Privacy Policy.</p>
+<p><strong>YOU MUST AFFIRMATIVELY AGREE TO THESE TERMS BY TAPPING "I AGREE" OR A SIMILAR BUTTON DURING ACCOUNT REGISTRATION. If you do not agree, do not use the Services.</strong></p>
+<p>You acknowledge that these Terms are concluded between you and Offbookly only, and not with Apple Inc. ("Apple") or any other platform provider. Offbookly, not Apple, is solely responsible for the App and its content.</p>
+<p>If you are entering into these Terms on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these Terms.</p>
+<p>Offbookly may update these Terms at any time. We will notify you of material changes via in-app notification or email. Your continued use of the Services after such notice constitutes acceptance of the updated Terms.</p>
+<hr />
+
+<h2>2. Eligibility</h2>
+<p>You must be at least 13 years of age to use the Services. If you are between 13 and 18 years of age (or the age of majority in your jurisdiction), you may only use the Services with the consent of a parent or legal guardian who agrees to be bound by these Terms on your behalf.</p>
+<p>You may not use the Services if you are barred from receiving services under the laws of your jurisdiction of residence or from which you access the Services.</p>
+<p>You represent and warrant that you are not located in a country that is subject to a U.S. Government embargo, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</p>
+<hr />
+
+<h2>3. Account Registration and Security</h2>
+<p>To access certain features, you must create an account. You may register using your email address and password, or through third-party authentication services (Apple, Google, or Facebook).</p>
+<p>You agree to:</p>
+<ul>
+<li>Provide accurate, current, and complete registration information</li>
+<li>Maintain the security of your password and account</li>
+<li>Notify Offbookly immediately of any unauthorized access</li>
+<li>Accept responsibility for all activities under your account</li>
+</ul>
+<p>Your right to access the Services is personal and non-transferable.</p>
+<p>By providing your email address, you agree to receive essential service-related communications. You may opt out of non-essential communications at any time.</p>
+<hr />
+
+<h2>4. The Services</h2>
+<p>Offbookly is a mobile application designed to help actors and performers rehearse their lines. Core features include:</p>
+<ul>
+<li><strong>Script Parsing:</strong> Users upload screenplays which are analyzed and broken down by scene, character, and dialogue using third-party AI language models.</li>
+<li><strong>Text-to-Speech:</strong> Dialogue from other characters is sent from our Cloud Run backend server to Google Cloud Text-to-Speech to generate audio, allowing users to rehearse with realistic scene partners. Your device does not communicate directly with Google TTS.</li>
+<li><strong>Speech-to-Text (Cue Detection):</strong> During an active rehearsal session, the App uses your device's built-in speech recognition framework (Apple Speech Framework on iOS, or Google Speech Services on Android) to convert your spoken lines into text in real time. The text transcript is used solely to detect cues and advance the rehearsal. Raw audio is not stored on our servers and, on iOS, may be processed on-device. See our Privacy Policy for full details.</li>
+<li><strong>Practice Tools:</strong> Users can practice their lines and track their rehearsal progress.</li>
+</ul>
+<hr />
+
+<h2>5. Your Content and Intellectual Property</h2>
+
+<h3>5.1 You Own Your Content</h3>
+<p><strong>You retain all right, title, and ownership in and to any screenplays, scripts, text, annotations, recordings, and other materials you upload to or create through the Services (collectively, "Your Content"). Offbookly does not claim any ownership over Your Content.</strong></p>
+
+<h3>5.2 License You Grant Us</h3>
+<p>By uploading Your Content, you grant Offbookly a non-exclusive, worldwide, royalty-free, revocable license to process, transmit, and temporarily store Your Content solely for the purpose of providing the Services to you. This license includes the right to:</p>
+<ul>
+<li>Transmit Your Content to third-party AI service providers (such as OpenAI and Anthropic) for script parsing and analysis</li>
+<li>Send dialogue text from Your Content to Google Cloud Text-to-Speech via our Cloud Run backend server for audio generation (your device does not send data directly to Google)</li>
+<li>Pass your spoken audio to your device's operating-system speech-recognition framework (Apple or Google) for the purpose of generating a real-time transcript that drives cue detection during a rehearsal session</li>
+<li>Store Your Content on our servers (Firebase) to enable you to access your scripts and audio across sessions</li>
+</ul>
+<p>This license terminates when you delete Your Content or your account, subject to reasonable technical delays for deletion propagation.</p>
+
+<h3>5.3 No Training Use; No Voice Cloning; No Biometric Use</h3>
+<p><strong>Offbookly does not use Your Content — including any script text, generated audio, or speech-to-text transcripts — to train, fine-tune, evaluate, or otherwise improve any artificial intelligence, machine learning, speech-synthesis, voice-cloning, or biometric-identification model. Offbookly does not use any audio, transcript, or other voice-derived data to identify or authenticate you as an individual, to create a voiceprint, or as a biometric identifier within the meaning of any biometric privacy law (including, without limitation, the Illinois Biometric Information Privacy Act, 740 ILCS 14).</strong></p>
+<p>Your Content is sent to third-party AI providers solely for real-time processing and is subject to those providers' respective data handling policies:</p>
+<ul>
+<li>OpenAI API: <a href="https://openai.com/policies/api-data-usage-policies">https://openai.com/policies/api-data-usage-policies</a></li>
+<li>Anthropic API: <a href="https://www.anthropic.com/policies/privacy">https://www.anthropic.com/policies/privacy</a></li>
+<li>Apple Speech Framework (iOS): <a href="https://www.apple.com/legal/privacy/data/en/speech-recognition/">https://www.apple.com/legal/privacy/data/en/speech-recognition/</a></li>
+<li>Google Speech Services (Android): <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+
+<h3>5.4 Our Intellectual Property</h3>
+<p>All right, title, and interest in and to the Offbookly application, including its design, code, logos, trademarks, and all other proprietary materials, are and remain the property of Offbookly. These Terms grant you no right to use Offbookly's trademarks or branding without prior written consent.</p>
+
+<h3>5.5 Feedback</h3>
+<p>If you provide suggestions, ideas, or feedback about the Services ("Feedback"), you grant Offbookly a non-exclusive, royalty-free, perpetual license to use such Feedback to improve the Services. Feedback does not include Your Content.</p>
+<hr />
+
+<h2>6. Third-Party Services and Data Processing</h2>
+
+<h3>6.1 How Your Data Flows</h3>
+<p>When you use the Services, portions of Your Content are transmitted to third-party service providers for processing:</p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Third-Party Provider</th>
+<th>Purpose</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script text</td>
+<td>OpenAI / Anthropic</td>
+<td>Parse scripts into scenes, characters, and dialogue</td>
+<td>Retained up to 30 days for abuse monitoring only (not used for training)*</td>
+</tr>
+<tr>
+<td>Dialogue text (via backend)</td>
+<td>Google Cloud Text-to-Speech (via Cloud Run)</td>
+<td>Generate audio via our backend server</td>
+<td>Not retained after processing</td>
+</tr>
+<tr>
+<td>Spoken audio (during rehearsal)</td>
+<td>Apple Speech Framework (iOS) / Google Speech Services (Android)</td>
+<td>Convert your speech into a real-time transcript for cue detection</td>
+<td>Raw audio is not stored by Offbookly. On iOS, recognition may occur on-device. Google may process audio on its servers in accordance with its privacy policy.</td>
+</tr>
+<tr>
+<td>Speech-to-text transcript</td>
+<td>Stored locally on your device during the rehearsal session</td>
+<td>Drive cue detection and rehearsal progression</td>
+<td>Discarded when the rehearsal session ends, unless you explicitly save practice notes</td>
+</tr>
+<tr>
+<td>Account data &amp; generated audio files</td>
+<td>Google Firebase</td>
+<td>Store your account, scripts, and TTS-generated audio</td>
+<td>Until you delete your account</td>
+</tr>
+</tbody>
+</table>
+<p>*Subject to each provider's API data policies. See links in Section 5.3.</p>
+
+<h3>6.2 AI Output Disclaimer</h3>
+<p><strong>The script parsing, text-to-speech, and speech-to-text features are powered by artificial intelligence and machine-learning technologies that are evolving and imperfect. Offbookly does not guarantee that:</strong></p>
+<ul>
+<li>Script parsing will be 100% accurate (character names, scene breaks, or dialogue attribution may contain errors)</li>
+<li>Text-to-speech audio will perfectly replicate natural speech patterns or accents</li>
+<li>Speech-to-text transcription will perfectly recognize your spoken lines, accents, dialects, or technical vocabulary</li>
+<li>AI-generated outputs will be free from errors, omissions, or unintended content</li>
+</ul>
+<p>You are responsible for reviewing AI-generated outputs and should not rely on them as the sole source of truth for professional performances.</p>
+<hr />
+
+<h2>7. Network and Device Requirements</h2>
+
+<h3>7.1 Internet Connection</h3>
+<p>The Services require an active internet connection to function. An internet connection is required for features including, but not limited to, uploading scripts, AI-powered script parsing, text-to-speech audio generation, and syncing your data across sessions. The connection can be Wi-Fi or provided by your mobile network provider.</p>
+<p>Offbookly is not responsible if the Services do not function at full capacity because you do not have access to Wi-Fi or have exhausted your mobile data allowance. If you are using the Services outside of a Wi-Fi area, your mobile network provider's terms and data charges may still apply. You accept responsibility for any such charges, including roaming data charges if you use the Services outside of your home territory without disabling data roaming.</p>
+
+<h3>7.2 Device Responsibility</h3>
+<p>You are responsible for ensuring that your device remains charged and operational. Offbookly cannot accept responsibility if the Services are unavailable to you because your device runs out of battery or is otherwise inoperable.</p>
+
+<h3>7.3 Device Permissions</h3>
+<p>Certain features of the App require you to grant device-level permissions, including microphone access and (on iOS) speech-recognition access. You may revoke these permissions at any time through your device's system settings; if you do, the affected features will be disabled but you may continue to use the rest of the App.</p>
+
+<h3>7.4 Device Modification Warning</h3>
+<p><strong>Offbookly strongly advises against modifying your device by jailbreaking (iOS) or rooting (Android). Such modifications may compromise your device's security, expose it to malware and viruses, and may cause the App to malfunction or become unable to function properly. Offbookly shall have no liability for any issues arising from the use of a jailbroken or rooted device.</strong></p>
+<hr />
+
+<h2>8. Subscriptions, Payments, and Cancellation</h2>
+
+<h3>8.1 Subscription Plans</h3>
+<p>Access to certain features of the Services requires a paid subscription. Details of available plans, pricing, and included features are displayed within the App.</p>
+
+<h3>8.2 Billing</h3>
+<p>Subscriptions are billed in advance on a recurring basis (monthly or annually) through Apple's App Store (and, in the future, Google Play Store). All billing is processed by the respective app store; Offbookly does not directly collect or store your payment card information.</p>
+
+<h3>8.3 Automatic Renewal</h3>
+<p>Your subscription will automatically renew at the end of each billing period unless you cancel at least 24 hours before the end of the current period. You can manage and cancel your subscription through your device's app store settings.</p>
+
+<h3>8.4 Refunds</h3>
+<p>Refund requests are handled by the applicable app store in accordance with their refund policies:</p>
+<ul>
+<li>Apple App Store: <a href="https://support.apple.com/en-us/HT204084">https://support.apple.com/en-us/HT204084</a></li>
+<li>Google Play Store: <a href="https://support.google.com/googleplay/answer/2479637">https://support.google.com/googleplay/answer/2479637</a></li>
+</ul>
+
+<h3>8.5 Price Changes</h3>
+<p>Offbookly reserves the right to modify subscription pricing. Any price changes will take effect at the start of the next billing period following notice to you.</p>
+<hr />
+
+<h2>9. Acceptable Use</h2>
+<p>You agree not to:</p>
+<ul>
+<li>Upload, store, or transmit any content that you do not have the right to use or that infringes any third party's intellectual property rights, contractual rights, privacy rights, or rights of publicity;</li>
+<li>Use the Services to distribute, share, leak, or otherwise make available any confidential, embargoed, pre-release, or NDA-protected scripts without authorization from the rights holder;</li>
+<li>Use the Services to record, transcribe, or otherwise capture the voice or likeness of any third party (including, without limitation, casting directors, scene partners, family members, or co-workers) without that person's prior, informed consent — and, in jurisdictions that require all-party consent to record (including California), without the consent of every party to the conversation;</li>
+<li>Use the Services to create, train, fine-tune, evaluate, or distribute any deepfake, voice clone, synthetic voice, biometric identifier, or any artificial-intelligence or machine-learning model;</li>
+<li>Use the Services to harass, threaten, defame, stalk, or violate the privacy of any person;</li>
+<li>Resell, sublicense, rent, lease, or otherwise commercially exploit the Services or any portion thereof, except as expressly permitted by these Terms;</li>
+<li>Attempt to reverse engineer, decompile, disassemble, or derive the source code of the App, except to the extent such restriction is prohibited by applicable law;</li>
+<li>Use automated means (bots, scrapers, crawlers, or similar) to access, monitor, or copy any portion of the Services;</li>
+<li>Circumvent, disable, or otherwise interfere with security-related features of the Services, or features that prevent or restrict use of, or copying of, any content;</li>
+<li>Interfere with or disrupt the integrity or performance of the Services, or the data they contain;</li>
+<li>Use the Services for any unlawful purpose or in violation of any applicable export-control, sanctions, or anti-corruption laws;</li>
+<li>Share, transfer, sell, or otherwise allow another person to use your account.</li>
+</ul>
+<p>Offbookly reserves the right, in its sole discretion, to investigate any suspected violation of this Section and to suspend, restrict, or terminate your account, with or without notice, for any actual or suspected violation.</p>
+<hr />
+
+<h2>10. Copyright Complaints (DMCA)</h2>
+<p>Offbookly respects the intellectual property rights of others and expects users of the Services to do the same. We comply with the Digital Millennium Copyright Act, 17 U.S.C. § 512 ("DMCA"), and will respond to clear notices of alleged copyright infringement that comply with the DMCA.</p>
+
+<h3>10.1 Filing a Notice of Alleged Infringement</h3>
+<p>If you believe that material accessible on or from the Services infringes a copyright that you own or control, you may submit a written notice of alleged infringement to our Designated Copyright Agent. Your notice must include all of the following, as required by 17 U.S.C. § 512(c)(3):</p>
+<ol>
+<li>A physical or electronic signature of a person authorized to act on behalf of the owner of the exclusive right that is allegedly infringed;</li>
+<li>Identification of the copyrighted work claimed to have been infringed (or, if multiple works are covered by a single notice, a representative list of such works);</li>
+<li>Identification of the material that is claimed to be infringing or to be the subject of infringing activity, with information reasonably sufficient to permit us to locate the material (such as the URL, share code, project ID, or screenshot);</li>
+<li>Information reasonably sufficient to permit us to contact you, such as your address, telephone number, and email address;</li>
+<li>A statement that you have a good-faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law;</li>
+<li>A statement, made under penalty of perjury, that the information in the notification is accurate and that you are the copyright owner or are authorized to act on the owner's behalf.</li>
+</ol>
+<p><strong>Designated Copyright Agent:</strong></p>
+<p>
+Copyright Agent — Offbookly<br />
+Email: <a href="mailto:dmca@offbookly.com">dmca@offbookly.com</a>
+</p>
+<p>Offbookly's Designated Agent is registered (or in the process of being registered) with the U.S. Copyright Office, in accordance with 17 U.S.C. § 512(c)(2). Current registration information is available at <a href="https://www.copyright.gov/dmca-directory/">https://www.copyright.gov/dmca-directory/</a>.</p>
+
+<h3>10.2 Counter-Notice</h3>
+<p>If you believe that material you posted was removed or disabled by mistake or misidentification, you may submit a counter-notice to our Designated Agent that includes the elements specified in 17 U.S.C. § 512(g)(3), including a statement under penalty of perjury that you have a good-faith belief the material was removed in error and your consent to the jurisdiction of the federal district court in which your address is located (or, if you are outside the United States, the federal district court for any judicial district in which Offbookly may be found).</p>
+
+<h3>10.3 Repeat Infringer Policy</h3>
+<p>Offbookly will, in appropriate circumstances and in its sole discretion, terminate the accounts of users who are determined to be repeat infringers.</p>
+
+<h3>10.4 Misrepresentations</h3>
+<p>Under 17 U.S.C. § 512(f), any person who knowingly materially misrepresents that material is infringing, or that material was removed or disabled by mistake or misidentification, may be subject to liability.</p>
+<hr />
+
+<h2>11. Confidentiality</h2>
+
+<h3>11.1 We Respect Your Scripts' Confidentiality</h3>
+<p>Offbookly understands that screenplays and scripts may be confidential, pre-release, or subject to non-disclosure agreements. We commit to:</p>
+<ul>
+<li>Processing Your Content solely for the purpose of providing the Services</li>
+<li>Not sharing, selling, or licensing Your Content to any third party for purposes other than providing the Services</li>
+<li>Requiring that our third-party service providers handle Your Content in accordance with their respective data protection and confidentiality policies</li>
+</ul>
+
+<h3>11.2 No Absolute Guarantee</h3>
+<p><strong>While we take commercially reasonable measures to protect the confidentiality and security of Your Content, no system is 100% secure. You acknowledge that the transmission and storage of data over the internet inherently carries risk, and you upload sensitive materials at your own discretion.</strong></p>
+
+<h3>11.3 Your Obligations</h3>
+<p>You agree to safeguard any non-public information about Offbookly's technology, business practices, or proprietary features that you may learn through your use of the Services.</p>
+<hr />
+
+<h2>12. Disclaimer of Warranties</h2>
+<p>THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, OFFBOOKLY EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.</p>
+<p>OFFBOOKLY DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, OR THAT DEFECTS WILL BE CORRECTED.</p>
+<p>OFFBOOKLY IS NOT RESPONSIBLE FOR THE ACTS, OMISSIONS, OR FAILURES OF ANY THIRD-PARTY SERVICE PROVIDER, INCLUDING BUT NOT LIMITED TO OPENAI, ANTHROPIC, GOOGLE, APPLE, OR ANY INTERNET SERVICE PROVIDER.</p>
+<p>You acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</p>
+<hr />
+
+<h2>13. Limitation of Liability</h2>
+<p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT WILL OFFBOOKLY'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THESE TERMS OR THE SERVICES EXCEED THE GREATER OF: (A) THE AMOUNT YOU PAID TO OFFBOOKLY IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED US DOLLARS (US $100).</p>
+<p>IN NO EVENT WILL OFFBOOKLY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, GOODWILL, OR REPUTATION, WHETHER BASED ON WARRANTY, CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF OFFBOOKLY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+<p>THE FOREGOING LIMITATIONS SHALL ALSO APPLY TO ANY DAMAGES ARISING FROM THE UNAUTHORIZED ACCESS, USE, OR DISTRIBUTION OF YOUR CONTENT BY THIRD PARTIES.</p>
+<p>You acknowledge that Offbookly, not Apple, is responsible for addressing any user or third-party claims relating to the App or your possession and/or use of the App, including but not limited to: (i) product liability claims; (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection, privacy, or similar legislation. In the event of any third-party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, Offbookly, not Apple, will be solely responsible for the investigation, defense, settlement, and discharge of any such claim.</p>
+<hr />
+
+<h2>14. Indemnification</h2>
+<p>To the maximum extent permitted by applicable law, you agree to indemnify, defend, and hold harmless Offbookly and its officers, directors, employees, contractors, agents, licensors, and assigns (collectively, the "Indemnified Parties") from and against any and all third-party claims, demands, actions, proceedings, damages, losses, liabilities, judgments, settlements, costs, and expenses (including reasonable attorneys' fees and court costs) arising out of or related to:</p>
+<ul>
+<li>Your use or misuse of the Services;</li>
+<li>Your breach or alleged breach of these Terms or any representation or warranty made by you herein;</li>
+<li>Your violation of any applicable law, rule, or regulation, including, without limitation, intellectual property law, privacy law (including biometric privacy laws such as the Illinois Biometric Information Privacy Act), recording-consent laws, rights of publicity, and export-control laws;</li>
+<li>Your violation of any third party's rights, including intellectual property rights, privacy rights, contractual rights, or rights of publicity;</li>
+<li>Your Content, including any claim that Your Content infringes, misappropriates, or otherwise violates the rights of a third party, or that the upload, transmission, storage, or distribution of Your Content violates any applicable law; and</li>
+<li>Any voice, image, performance, or other personal data of a third party that you cause to be processed through the Services without that third party's required consent.</li>
+</ul>
+<p>Offbookly reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate with our defense of these claims. You agree not to settle any such matter without the prior written consent of Offbookly. Offbookly will use reasonable efforts to notify you of any such claim, action, or proceeding upon becoming aware of it. Your obligations under this Section survive any termination of these Terms or your account.</p>
+<hr />
+
+<h2>15. Termination</h2>
+
+<h3>15.1 By You</h3>
+<p>You may cancel your subscription and delete your account at any time through the App. Upon account deletion, Offbookly will delete Your Content from our active systems within 30 days. Backup copies may persist for up to an additional 90 days before being permanently removed.</p>
+
+<h3>15.2 By Offbookly</h3>
+<p>Offbookly reserves the right to suspend or terminate your access to the Services at any time, with or without notice, for any violation of these Terms or for any other reason at our sole discretion.</p>
+
+<h3>15.3 Effect of Termination</h3>
+<p>Upon termination, your license to use the Services ceases immediately. Sections 5 (Intellectual Property), 9 (Acceptable Use), 10 (DMCA), 11.2 (No Absolute Guarantee), 12 (Disclaimer), 13 (Limitation of Liability), 14 (Indemnification), and 16 (Governing Law) survive termination.</p>
+<hr />
+
+<h2>16. Governing Law and Dispute Resolution</h2>
+<p>These Terms shall be governed by and construed in accordance with the laws of the State of California, without regard to conflict of law principles.</p>
+<p>Any dispute arising under these Terms shall be resolved exclusively in the state or federal courts located in Los Angeles, California, except that Offbookly may seek injunctive relief in any jurisdiction.</p>
+<hr />
+
+<h2>17. General Provisions</h2>
+<p><strong>Severability:</strong> If any provision of these Terms is found unlawful or unenforceable, the remaining provisions remain in full effect.</p>
+<p><strong>Waiver:</strong> Offbookly's failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.</p>
+<p><strong>Entire Agreement:</strong> These Terms, together with the Privacy Policy, constitute the entire agreement between you and Offbookly regarding the Services.</p>
+<p><strong>Assignment:</strong> You may not assign or transfer these Terms without Offbookly's prior written consent. Offbookly may assign these Terms without restriction.</p>
+<p><strong>Notice:</strong> Offbookly may provide notices to you via in-app notification, email, or posting on the App.</p>
+<p><strong>Apple as Third-Party Beneficiary:</strong> You and Offbookly acknowledge and agree that Apple, and Apple's subsidiaries, are third-party beneficiaries of these Terms. Upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary thereof.</p>
+<hr />
+
+<h2>18. Contact Us</h2>
+<p>If you have any questions about these Terms, please contact us at:</p>
+<p>
+General inquiries: <a href="mailto:info@offbookly.com">info@offbookly.com</a><br />
+Copyright (DMCA) notices: <a href="mailto:dmca@offbookly.com">dmca@offbookly.com</a>
+</p>
+<hr />
+
+<p class="footer-note"><em>[END OF TERMS OF USE]</em></p>
+  </div>
+</body>
+</html>
